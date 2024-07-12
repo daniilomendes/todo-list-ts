@@ -33,7 +33,7 @@ export const useSaveTodos = () => {
     }
 
     setGottedInitialData(true);
-  }, [state]);
+  }, []);
 
   useEffect(() => {
     handleChangesTodo();
